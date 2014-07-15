@@ -44,10 +44,13 @@ case $BATT_STATUS in
    BATT_STATUS="-"
    ;;
 "Full")
-   BATT_STATUS="="
+   BATT_STATUS="."
+   ;;
+"Unknown")
+   BATT_STATUS="."
    ;;
 *)
-   BATT_STATUS="?"
+   BATT_STATUS="x"
    ;;
 esac
 echo -e $BATT_STATUS
