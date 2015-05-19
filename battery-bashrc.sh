@@ -16,7 +16,7 @@ PRP='\e[35m'    #purple
 TEL='\e[36m'    #teal
  
 #Define data sources
-BATTERY_DIR="/sys/class/power_supply/BAT0"
+BATTERY_DIR="/sys/class/power_supply/sbs-20-000b"
 BATTERY_CHARGE="energy_now"
 BATTERY_FULL="energy_full"
 BATTERY_STATUS="status"
